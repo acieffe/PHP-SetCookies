@@ -1,0 +1,41 @@
+/*
+  Assignment: Week 01 - Login Page
+  Author: Matthew Baugh
+  Date: 10/14/2020
+  Purpose: Style the page with Gold accents
+*/
+
+body, a {
+  background-color: black;
+  color: #d0b64f;
+}
+
+h1, h2, p, span, #button {
+  text-align: center;
+}
+
+#input {
+  background-image:
+    linear-gradient(to left bottom, #f0d547, #916f27, #f1d547);
+  border: #d0b64f 5px groove;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+input {
+  background-color: rgba(0, 0, 0, .80);
+  color: white;
+  margin: 0 auto 5px;
+}
+
+input:hover {
+  background-color: rgba(255, 255, 255, .50);
+  color: black;
+}
+
+input:active {
+  background-color: rgba(255, 255, 255, .50);
+  color: black;
+}
